@@ -1,0 +1,15 @@
+<div>
+  <h2>Two way data binding using ngmodel</h2>
+
+  salary:<input type="number" (ngModel)="(salary)" /><br />
+  //one way binding
+
+  {{ salary }}
+
+  <br />
+  age:<input type="number" [(ngModel)]="age" /> //2-way
+
+  <br />
+
+  {{ age }} //component
+</div>
